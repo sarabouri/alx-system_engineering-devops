@@ -1,2 +1,2 @@
 #!/bin/bash
-tail etc/hosts
+tail -n 10 etc/hosts
