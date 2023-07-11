@@ -1,3 +1,2 @@
 #!/bin/bash
-dir_count=$(IFS=":"; set -- $PATH; echo $#)
-echo "Total directories in PATH: $dir_count"
+dir_count=$(IFS=":"; set -- $PATH; echo $#) echo "Total directories in PATH: $dir_count"
